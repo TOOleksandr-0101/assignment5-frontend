@@ -35,9 +35,33 @@
     </nav>
 
     <main class="container my-5">
+        <div class="card p-4 shadow-sm mb-4">
+            <h2>Task 2: Changing Content</h2>
+            <p id="contentParagraph">This is the original paragraph.</p>
+            <button id="changeTextBtn" class="btn btn-primary">Change Text</button>
+        </div>
+
+        <div class="card p-4 shadow-sm mb-4">
+            <h2>Task 3: Changing Styles</h2>
+            <div id="styleBox" class="p-3 my-2 border">
+                Sample text inside box
+            </div>
+            <div>
+                <button id="changeBgBtn" class="btn btn-success">Change Color</button>
+                <button id="changeFontBtn" class="btn btn-warning">Change Font Size</button>
+            </div>
+        </div>
+
         <div class="card p-4 shadow-sm">
-            <h2>Part 2: DOM Manipulation</h2>
-            <p class="text-muted">Task 2, Task 3, Task 4</p>
+            <h2>Task 4: Creating & Removing Elements</h2>
+            <div class="my-2">
+                <button id="addItemBtn" class="btn btn-info">Add Item</button>
+                <button id="removeItemBtn" class="btn btn-danger">Remove Item</button>
+            </div>
+            <ul id="itemList">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
         </div>
     </main>
 
